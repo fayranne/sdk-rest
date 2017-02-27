@@ -150,7 +150,7 @@
     {
       "name": "compact",
       "type": "SCALAR",
-      "dataType": "Boolean",
+       "dataType": "Integer",
       "confidential": false,
       "optional": true,
       "label": "Compact",
@@ -162,7 +162,7 @@
     {
       "name": "copyOnFile",
       "type": "SCALAR",
-      "dataType": "Boolean",
+       "dataType": "Integer",
       "confidential": false,
       "optional": true,
       "label": "Copy On File",

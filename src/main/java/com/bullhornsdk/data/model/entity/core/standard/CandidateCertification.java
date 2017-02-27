@@ -27,9 +27,9 @@ public class CandidateCertification extends AbstractEntity implements UpdateEnti
 
     private String comments;
 
-    private Boolean compact;
+    private Integer compact;
 
-    private Boolean copyOnFile;
+    private Integer copyOnFile;
 
     private DateTime dateCertified;
 
@@ -111,12 +111,12 @@ public class CandidateCertification extends AbstractEntity implements UpdateEnti
     }
 
     @JsonProperty("copyOnFile")
-    public Boolean getCopyOnFile() {
+    public Integer getCopyOnFile() {
         return copyOnFile;
     }
 
     @JsonProperty("copyOnFile")
-    public void setCopyOnFile(Boolean copyOnFile) {
+    public void setCopyOnFile(Integer copyOnFile) {
         this.copyOnFile = copyOnFile;
     }
 
@@ -221,12 +221,12 @@ public class CandidateCertification extends AbstractEntity implements UpdateEnti
     }
 
     @JsonProperty("compact")
-    public Boolean getCompact() {
+    public Integer getCompact() {
         return compact;
     }
 
     @JsonProperty("compact")
-    public void setCompact(Boolean compact) {
+    public void setCompact(Integer compact) {
         this.compact = compact;
     }
 
